@@ -1,0 +1,95 @@
+.header{
+    max-height: 70px;
+    background-color: rgb(218, 226, 233);
+    display: flex;
+    grid-template-columns: 100px 300px 100px;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-top: -9px;
+    z-index: 1;
+    visibility:transparent;
+    opacity: 0.7;
+
+    
+
+   
+
+}
+
+
+.page1{
+    width: 1340px;
+    background-color: aquamarine;
+    height: 900px; 
+}
+
+.page1-image{
+    width: 1340px;
+    height: 900px;
+    object-fit: cover;
+
+}
+.row, .row-list{
+    display: flex;
+    width: 1fr 1fr;
+}
+
+.row-list-image{
+    width: 670px;
+    background-color: #1a0606;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.mk{
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: bold;
+    position: absolute;
+    margin-top:750px;
+    padding-top: 0;
+    color: rgb(175, 158, 115);
+}
+
+.fh, .innerpix, .amala, .ourkitchen{
+    font-size: 60px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.innerpix, .innerpix1{
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.amala{
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.kitchen{
+    font-size: 25px;
+    margin-top: 220px;
+}
+
+.a1234{
+    width: 1fr 1fr 1fr 1fr;
+    display: flex;
+    overflow: hidden;
+
+    @media (max: width 600px;)
+
+        
+}
+
+.b1234{
+    border: 2px solid black;
+
+}
+
+
+
